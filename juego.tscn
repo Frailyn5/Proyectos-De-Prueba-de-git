@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://buppccuj7d22e"]
+
+[node name="juego" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="fondo" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1158.0
+offset_bottom = 651.0
+
+[node name="pregunta" type="Label" parent="fondo"]
+layout_mode = 0
+offset_left = 104.0
+offset_top = 56.0
+offset_right = 1059.0
+offset_bottom = 210.0
+text = "texto de prueba"
+horizontal_alignment = 1
+
+[node name="boton 1" type="Button" parent="fondo"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 384.0
+offset_right = 320.0
+offset_bottom = 448.0
+text = "boton uno"
+
+[node name="boton 2" type="Button" parent="fondo"]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 384.0
+offset_right = 704.0
+offset_bottom = 448.0
+text = "boton dos"
+
+[node name="boton 3" type="Button" parent="fondo"]
+layout_mode = 0
+offset_left = 832.0
+offset_top = 392.0
+offset_right = 1088.0
+offset_bottom = 456.0
+text = "boton tres"
